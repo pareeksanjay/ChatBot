@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-PERPLEXITY_API_KEY = "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"
+PERPLEXITY_API_KEY = "<>"
 PERPLEXITY_API_URL = "https://api.perplexity.ai/chat/completions"
 @app.route('/')
 def index():
